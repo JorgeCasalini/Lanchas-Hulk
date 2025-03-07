@@ -1,0 +1,54 @@
+:root{
+    --btn-contact: #15B2C3;
+    --btn-contact-hover:#E47005;
+
+    --btn-reservation:#22BF14;
+    --btn-reservation-hover:#24A01A;
+
+}
+
+.title-KoPub {
+    font-family: 'KoPub Batang';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgba(25, 47, 94, 0.92);
+    transform: rotate(-0.04deg);
+    ;
+}
+
+.btn-primary {
+    background-color: var(--btn-contact) !important;
+    border-color: var(--btn-contact) !important;
+    height: 30px;
+}
+
+.btn-primary:hover {
+    background-color: var(--btn-contact-hover) !important;
+    border-color: var(--btn-contact-hover) !important;
+}
+
+@media (max-width: 892px) {
+    #carouselExampleInterval {
+        height: 20rem !important; /* Reduza a altura para telas pequenas */
+    }
+}
+
+@media (max-width: 570px) {
+    #carouselExampleInterval {
+        height: 15rem !important;
+    }
+}
+
+.btn-success {
+    background-color: var(--btn-reservation) !important ;
+    border-color: var(--btn-reservation) !important;
+    font-family: Ligconsolata;
+}
+
+.btn-success:hover{
+    background-color: var(--btn-reservation-hover) !important ;
+    border-color: var(--btn-reservation-hover) !important;
+}
+
+

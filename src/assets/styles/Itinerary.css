@@ -1,0 +1,21 @@
+.icon{
+    mix-blend-mode: multiply;
+}
+
+.text-itinerary {
+    font-family: Ligconsolata;
+    font-size: 21px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0b4970;
+}
+
+/* Para telas menores, o texto fica abaixo da imagem */
+
+@media (max-width: 768px) {
+    .text-lancha {
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
