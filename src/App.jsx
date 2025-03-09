@@ -3,7 +3,9 @@ import Navbar from './components/Navbar';
 import Carrousel from './components/Carrousel';
 import Itinerary from './components/Itinerary';
 import Product from './components/Product';
-import axios from 'axios';  // Certifique-se de importar o axios
+import About from "./components/About";
+import Footer from "./components/Footer";
+import axios from 'axios';
 
 import './App.css';
 
@@ -28,7 +30,9 @@ class App extends Component {
         <Navbar />
         <Carrousel />
         <Itinerary />
-        <Product lanchasJetSki={this.state.lanchasJetSki} />  {/* Passando os dados para o Product */}
+        <Product lanchasJetSki={this.state.lanchasJetSki} /> 
+        <About />
+        <Footer />
       </>
     );
   }

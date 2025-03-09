@@ -5,14 +5,24 @@
     --btn-reservation:#22BF14;
     --btn-reservation-hover:#24A01A;
 
+    --color-text-title: rgba(25, 47, 94, 0.92);
+
+    --color-text-name-product: #10378A;
+    --color-price-product: #171572;
+
+    --color-about-us: #0B4970;
+
+    --background-footer: #0F1930;
+
 }
 
 .title-KoPub {
+    text-align: center;
     font-family: 'KoPub Batang';
     font-style: normal;
     font-weight: 400;
     line-height: 1.4;
-    color: rgba(25, 47, 94, 0.92);
+    color: var(--color-text-title);
     transform: rotate(-0.04deg);
     ;
 }

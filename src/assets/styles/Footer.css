@@ -1,0 +1,48 @@
+/* Estilos para telas pequenas (menor ou igual a 585px) */
+@media (max-width: 585px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer-item img {
+        width: 100px;
+        height: auto;
+    }
+
+    .d-flex {
+        justify-content: center;
+    }
+}
+
+/* Estilos para telas médias e grandes (maior que 585px) */
+@media (min-width: 770px) {
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .footer-item {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    .d-flex {
+        justify-content: flex-start;
+    }
+
+    .footer-item img {
+        width: 50px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,8 @@
+.card-name-product{
+    color: var(--color-text-name-product);
+    font-family: Ligconsolata;
+}
+
+.price{
+    color: var(--color-price-product);
+}

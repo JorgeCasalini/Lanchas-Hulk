@@ -3,13 +3,13 @@ import Card from './Card';
 
 const Product = ({ lanchasJetSki }) => {
   return (
-    <div className="container">
-      <h1>Nossas Lanchas e Jet Skis</h1>
-      <div className="row">
+    <div className="container mt-4">
+      <h1 className="title-KoPub">Nossas Lanchas e Jet Skis</h1>
+      <div className="row d-flex justify-content-between">
         {lanchasJetSki.length > 0 ? (
           lanchasJetSki.map((lancha) => (
-            <div className="col-12 col-md-4" key={lancha.id}>
-              <div className="card">
+            <div className="col-12 col-md-4 mb-4 mt-4" key={lancha.id}>
+              <div className="card h-100" style={{backgroundColor:'#f1f1f1', border:'none'}}>
                 <Card
                 imagem = {lancha.imagem + lancha.id + ".png"}
                 nome = {lancha.nome}

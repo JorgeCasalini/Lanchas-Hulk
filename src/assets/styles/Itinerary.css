@@ -11,11 +11,28 @@
     color: #0b4970;
 }
 
-/* Para telas menores, o texto fica abaixo da imagem */
-
 @media (max-width: 768px) {
-    .text-lancha {
-        text-align: center;
+    .text-itinerary {
+        text-align: center !important;
         margin-top: 1rem;
+        margin-left: 0px;
+        margin: 0px;
+    }
+
+    /* Centralizar a imagem nas telas pequenas */
+    .icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Ajustar a coluna de texto para ocupar toda a largura em telas pequenas */
+    .col-12.col-md-8 {
+        text-align: center;
+    }
+
+    /* Alinhar a coluna da imagem à esquerda para telas maiores */
+    .col-12.col-md-3 {
+        margin: 0 auto;
     }
 }
