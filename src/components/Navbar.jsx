@@ -7,6 +7,8 @@ window.addEventListener("scroll", function () {
     let nav = document.querySelector('.navbar');
     let navLinks = document.querySelectorAll('.nav-link');
 
+    if(!nav) return;
+
     if (window.scrollY > 0) {
         nav.classList.add('bg-body-tertiary');
         navLinks.forEach(link => {

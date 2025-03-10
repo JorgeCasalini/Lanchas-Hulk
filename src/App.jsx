@@ -17,17 +17,27 @@ import './App.css';
 class App extends Component {
   state = {
     lanchasJetSki: [],
+    perguntasFrequentes: []
   };
 
   // Método que vai buscar os dados da API
   async componentDidMount() {
     try {
       const { data: lanchasJetSki } = await axios.get("/api/todasAsLanchas.json");
-      this.setState({ lanchasJetSki });  // Armazena os dados no estado
+  
+      const { data: perguntasFrequentes } = await axios.get("/api/perguntasFrequentes.json");
+  
+      this.setState({ 
+        lanchasJetSki: Array.isArray(lanchasJetSki) ? lanchasJetSki : [], 
+        perguntasFrequentes: Array.isArray(perguntasFrequentes) ? perguntasFrequentes : [] 
+      });
     } catch (error) {
-      console.log(error);
+      console.log("Erro ao carregar os dados:", error);
+      this.setState({ perguntasFrequentes: [] }); // Garante que não seja undefined
     }
   }
+  
+  
 
   render() {
     return (
@@ -37,7 +47,7 @@ class App extends Component {
         <Itinerary />
         <Product lanchasJetSki={this.state.lanchasJetSki} /> 
         <About />
-        <Doubts />
+        <Doubts perguntasFrequentes={this.state.perguntasFrequentes}/>
         <Footer />
       </>
     );

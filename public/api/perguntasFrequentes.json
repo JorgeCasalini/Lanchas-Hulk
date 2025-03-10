@@ -1,0 +1,32 @@
+[
+    {
+        "id": "0-1",
+        "pergunta": "Quem pilota a lancha?",
+        "resposta": "Nossas lanchas são conduzidas por marinheiros nativos, profissionais e capacitados."
+    },
+    {
+        "id": "0-2",
+        "pergunta": "Podemos levar alimentos e bebidas?",
+        "resposta": "Sim, nossos clientes podem ficar à vontade para levar o tanto de comida e bebida que desejarem."
+    },
+    {
+        "id": "0-3",
+        "pergunta": "Onde nós embarcamos?",
+        "resposta": "Os embarques ocorrem em hotéis à beira do rio Corumbá ou em parques aquáticos da região."
+    },
+    {
+        "id": "0-4",
+        "pergunta": "Quais os itinerários disponíveis?",
+        "resposta": "Ambos itinerários fazem diversas paradas nos principais pontos turísticos da região."
+    },
+    {
+        "id": "0-5",
+        "pergunta": "O que está incluso no passeio?",
+        "resposta": "Marinheiro devidamente habilitado, colete salva-vidas, utensílios e taças, combustível, churrasqueira com carvão, cooler, sistema de som via Bluetooth e pendrive."
+    },
+    {
+        "id": "0-6",
+        "pergunta": "Vocês oferecem passeios em Rio Quente?",
+        "resposta": "Sim, oferecemos passeios exclusivos de lancha e jet ski em Rio Quente, proporcionando uma experiência única e emocionante nas águas cristalinas da região."
+    }
+]

@@ -66,4 +66,10 @@
     border-color: var(--btn-reservation-hover) !important;
 }
 
+.accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  
 
