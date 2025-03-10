@@ -3,8 +3,8 @@ import Card from './Card';
 
 const Product = ({ lanchasJetSki }) => {
   return (
-    <div className="container mt-4">
-      <h1 className="title-KoPub">Nossas Lanchas e Jet Skis</h1>
+    <div id='atividades' className="container mt-4">
+      <h1 className="title-KoPub" data-aos="fade-up" data-aos-duration="1000">Nossas Lanchas e Jet Skis</h1>
       <div className="row d-flex justify-content-between">
         {lanchasJetSki.length > 0 ? (
           lanchasJetSki.map((lancha) => (

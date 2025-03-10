@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-content p-4" style={{ backgroundColor: 'var(--background-footer)' }}>
 
             <div className="footer-item d-flex flex-column align-items-center text-center">
-                <a href="/">
+                <a href="#carouselExampleInterval">
                     <img
                         src={logo}
                         alt="Logo"
@@ -24,7 +24,7 @@ const Footer = () => {
 
             <div className="footer-item text-light text-center">
                 <h5 className="mt-5">Endereço:</h5>
-                <p>Lago Corumbá, Caldas Novas, Goiás, Brasil</p>
+                <p>Lago Corumbá, Caldas Novas <br/> Goiás, Brasil</p>
             </div>
 
             <div className="footer-item mt-4 p-3">

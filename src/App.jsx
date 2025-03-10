@@ -4,8 +4,13 @@ import Carrousel from './components/Carrousel';
 import Itinerary from './components/Itinerary';
 import Product from './components/Product';
 import About from "./components/About";
+import Doubts from "./components/Doubts";
 import Footer from "./components/Footer";
 import axios from 'axios';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// ..
+AOS.init();
 
 import './App.css';
 
@@ -32,6 +37,7 @@ class App extends Component {
         <Itinerary />
         <Product lanchasJetSki={this.state.lanchasJetSki} /> 
         <About />
+        <Doubts />
         <Footer />
       </>
     );
