@@ -22,7 +22,6 @@ const Modal = ({ imagem, nome, descricao, onClose }) => {
 
     // Função para fechar o modal ao clicar fora dele
     const handleOutsideClick = (e) => {
-        // Verifica se o clique foi fora da área do modal (da camada escura)
         if (modalRef.current && !modalRef.current.contains(e.target)) {
             onClose();  // Chama a função de fechamento
         }
