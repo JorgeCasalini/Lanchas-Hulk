@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/src/assets/Img/Logo-Navbar.png";
+import logo from "/src/assets/img/Logo-Navbar.png";
 import ButtonContact from "./_ButtonContact";
 import "../App.css";
 
