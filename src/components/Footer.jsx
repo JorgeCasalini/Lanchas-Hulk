@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-content p-4" style={{ backgroundColor: 'var(--background-footer)' }}>
 
             <div className="footer-item d-flex flex-column align-items-center text-center">
-                <a href="#carouselExampleInterval">
+                <a href="#/">
                     <img
                         src={logo}
                         alt="Logo"

@@ -3,7 +3,7 @@ import React from "react";
 
 const Carrousel = () => (
     <>
-            <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" style={{ width: "auto", height: "31rem", overflow: "hidden" }}>
+            <div id="/" className="carousel slide" data-bs-ride="carousel" style={{ width: "auto", height: "31rem", overflow: "hidden" }}>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="1800">
                         <img src="/img/Carrousel-1.jpg" className="w-100 h-auto object-fit-cover"
