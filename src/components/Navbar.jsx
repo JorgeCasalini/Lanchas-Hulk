@@ -7,7 +7,7 @@ window.addEventListener("scroll", function () {
     let nav = document.querySelector('.navbar');
     let navLinks = document.querySelectorAll('.nav-link');
 
-    if(!nav) return;
+    if (!nav) return;
 
     if (window.scrollY > 0) {
         nav.classList.add('bg-body-tertiary');
@@ -22,12 +22,10 @@ window.addEventListener("scroll", function () {
     }
 });
 
-
 const Navbar = () => (
     <>
-
         <nav className="position-fixed w-100 navbar navbar-expand-lg mt-0" style={{ zIndex: "99999", top: "0", transition: '.5s' }}>
-            <div className="container-fluid d-flex align-items-center">
+            <div className="container-fluid d-flex align-items-center justify-content-between">
                 <a href="#carouselExampleInterval" className="navbar-brand d-flex align-items-center">
                     <img className="img-fluid" style={{ height: "62px", width: "auto" }} src={logo} alt="Imagem Logo" />
                 </a>
@@ -36,7 +34,7 @@ const Navbar = () => (
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ms-auto d-flex align-items-center mx-4">
-                        <a href="#atividades" className=" nav-link text-white" to="#">Atividades</a>
+                        <a href="#atividades" className="nav-link text-white" to="#">Roteiros</a>
                         <a href="#sobre" className="nav-link text-white" to="#">Sobre</a>
                         <a href="#duvidas" className="nav-link text-white" to="#">Dúvidas</a>
                         <ButtonContact />
@@ -44,8 +42,6 @@ const Navbar = () => (
                 </div>
             </div>
         </nav>
-
-
     </>
 );
 

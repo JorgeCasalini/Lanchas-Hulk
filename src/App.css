@@ -72,4 +72,20 @@
     border: none !important;
   }
   
+/* Para telas grandes (acima de 768px), a navbar será como padrão */
+.navbar-nav {
+    justify-content: flex-start; /* Por padrão, os links ficam alinhados à esquerda */
+}
+
+/* Para telas pequenas (abaixo de 768px), a navbar ficará centralizada */
+@media (max-width: 768px) {
+    .navbar-nav {
+        justify-content: center; /* Centraliza os links na tela */
+        width: 100%; /* Garante que a navbar ocupe toda a largura da tela */
+    }
+
+    .navbar-collapse {
+        text-align: center; /* Garante que o conteúdo dentro da navbar também esteja alinhado ao centro */
+    }
+}
 
