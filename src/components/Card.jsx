@@ -1,6 +1,6 @@
 import React from "react";
 import ButtonDescription from "./_ButtonDescription";
-import '../assets/styles/Card.css';
+import '../styles/Card.css';
 
 const Card = ({ imagem, nome, descricao, preco }) => {
   return (
