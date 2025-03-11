@@ -1,12 +1,5 @@
 import React from "react";
 
-<style>
-    button{
-
-    }
-
-</style>
-
 const ButtonContact = () => (
     <>
         <a href="https://web.whatsapp.com/" target="_blank" className="text-decoration-none">

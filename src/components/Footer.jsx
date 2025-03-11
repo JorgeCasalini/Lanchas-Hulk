@@ -1,9 +1,9 @@
 import React from "react"
-import logo from "../assets/img/Logo.png";
-import img1 from "../assets/img/IconFacebook.png";
-import img2 from "../assets/img/IconInstagram.png";
-import img3 from "../assets/img/IconWhatsapp.png";
-import '../assets/styles/Footer.css';
+import logo from "../../public/img/Logo.png";
+import img1 from "../../public/img/IconFacebook.png";
+import img2 from "../../public/img/IconInstagram.png";
+import img3 from "../../public/img/IconWhatsapp.png";
+import '../styles/Footer.css';
 
 
 const Footer = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/styles/Itinerary.css';
+import '../styles/Itinerary.css';
 
 const Itinerary = () => (
     <>
@@ -12,7 +12,7 @@ const Itinerary = () => (
             <div className="mt-3 row align-items-center">
                 <div className="col-12 col-md-3 d-flex justify-content-center" data-aos="zoom-in-right" data-aos-duration="2000">
                     <img
-                        src="./src/assets/img/ImgLancha.jpg"
+                        src="../../public/img/ImgLancha.jpg"
                         className="icon img-fluid rounded"
                         alt="Icon lancha"
                         style={{ maxWidth: "100px", height: "auto" }}
@@ -38,7 +38,7 @@ const Itinerary = () => (
 
                 <div className="col-12 col-md-3 d-flex justify-content-center" data-aos="zoom-in-left" data-aos-duration="2000">
                     <img
-                        src="./src/assets/img/ImgJetSki.jpg"
+                        src="../../public/img/ImgJetSki.jpg"
                         className="icon img-fluid rounded"
                         alt="Icon lancha"
                         style={{ maxWidth: "100px", height: "auto" }}

@@ -4,41 +4,41 @@
         "nome": "JET SKI® ULTRA 310LX-S",
         "preco": "830,00",
         "descricao": "Experimente a emoção de uma das mais poderosas embarcações pessoais superalimentadas da indústria de PWC. A série Jet Ski® Ultra® 310 representa a geração moderna do nome mais icônico dos esportes aquáticos. Esta plataforma emblemática apresenta recursos premium e líderes de classe, do nariz à cauda, incluindo confortos de criaturas para diversão o dia todo na água.",
-        "imagem": "./src/assets/img/Card-"
+        "imagem": "../../public/img/Card-"
     },
     {
         "id": "100-02",
         "nome": "JET SKI® STX® 160LX",
         "preco": "650,00",
         "descricao": "Quando as águas calmas precisarem se agitar, procure a embarcação pessoal Jet Ski® STX® 160 para a dose perfeita de diversão. A linha Jet Ski STX 160 oferece vários níveis de acabamento para escolher, tudo com aceleração líder de classe, desempenho ágil de manuseio e assentos para três pessoas e várias funções de assistência ao piloto fáceis de usar.",
-        "imagem": "./src/assets/img/Card-"
+        "imagem": "../../public/img/Card-"
     },
     {
         "id": "100-03",
         "nome": "JET SKI ULTRA 160LX-S ANGLER",
         "preco": "810,00",
         "descricao": "A nova embarcação Jet Ski® Ultra® 160LX-S Angler está repleta de recursos máximos de conforto e conveniência para que os entusiastas da pesca possam se concentrar em pegar os Bons Tempos.",
-        "imagem": "./src/assets/img/Card-"
+        "imagem": "../../public/img/Card-"
     },
     {
         "id": "100-04",
         "nome": "Lancha NX 50 Invictus Fly",
         "preco": "1200,00",
         "descricao": "O avantajado Flybridge da NX 50 Invictus Fly é ideal para aqueles que querem viver a vida a bordo ao máximo usufruindo de um conforto jamais visto na categoria de lancha de 50 pés. Conheça mais detalhes ao longo da página.",
-        "imagem": "./src/assets/img/Card-"
+        "imagem": "../../public/img/Card-"
     },
     {
         "id": "100-05",
         "nome": "Lancha NX 340 Sport Coupé",
         "preco": "1500,00",
         "descricao": "Inovadora em todos os sentidos, a Lancha NX 340 é capaz de gerar uma sensação de potência e superioridade: da icônica entrada de ar, passando pela linha de teto rígido e dinâmica em harmonia com suas linhas esportivas, o design exterior da NX 340 Sport Coupé representa um poder de presença único.",
-        "imagem": "./src/assets/img/Card-"
+        "imagem": "../../public/img/Card-"
     },
     {
         "id": "100-06",
         "nome": "NX 44 DESIGN BY PININFARINA",
         "preco": "2100,00",
         "descricao": "Projetado pela lendária casa de design italiana Pininfarina, este novo modelo de lancha 44 pés estabelece um novo padrão para a indústria náutica nas Américas, com sua mistura única de design e funcionalidade.",
-        "imagem": "./src/assets/img/Card-"
+        "imagem": "../../public/img/Card-"
     }
 ]
