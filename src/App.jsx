@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import axios from 'axios';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// ..
+
 AOS.init();
 
 import './App.css';
