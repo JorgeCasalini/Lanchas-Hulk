@@ -15,7 +15,7 @@ const Footer = () => {
                     <img
                         src={logo}
                         alt="Logo"
-                        className="img-fluid"
+                        className="img-fluid logo-footer"
                         style={{ width: '150px', height: 'auto', mixBlendMode: 'multiply' }}
                     />
                 </a>
