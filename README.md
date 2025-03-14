@@ -27,8 +27,7 @@ Este projeto é um site responsivo desenvolvido com React e Bootstrap, com foco 
 
 1. Clone o repositório:
    ```bash
-git clone https://github.com/JorgeCasalini/Lanchas-Hulk.git
-````
+   git clone https://github.com/JorgeCasalini/Lanchas-Hulk.git
 2. Acesse a pasta do projeto:
 ```bash
 cd Site Lancha
