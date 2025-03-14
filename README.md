@@ -28,25 +28,23 @@ Este projeto é um site responsivo desenvolvido com React e Bootstrap, com foco 
 1. Clone o repositório:
    ```bash
    git clone https://github.com/JorgeCasalini/Lanchas-Hulk.git
-2. Acesse a pasta do projeto:
-```bash
-cd Site Lancha
-```
-3.Instale as dependências:
 
-```bash
-npm install
-```
-4.Inicie o servidor de desenvolvimento:
+ 2. Acesse a pasta do projeto:
+    ```bash
+    cd Site Lancha
 
-```bash
-npm run dev
-```
-5.Abra o navegador e acesse:
+ 3. Instale as dependências:
+    ```bash
+    install
+    
+ 4. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm run dev
 
-```bash
-http://localhost:3000
-```
+ 5. Abra o navegador e acesse:
+    ```bash
+    http://localhost:3000
+
 ## Dificuldades Enfrentadas
 
 Durante o desenvolvimento do projeto, enfrentei alguns desafios, como:
