@@ -16,6 +16,11 @@
 
 }
 
+::selection{
+    background-color: transparent;
+    color: #15B2C3;
+}
+
 .text-Ligconsolata{
     color: var(--color-Ligconsolata);
     font-family:'Ligconsolata';
@@ -89,3 +94,18 @@
     }
 }
 
+/* Transição mais suave */
+.carousel-item {
+  transition: transform 0.8s ease-in-out !important; /* Ajuste a duração aqui */
+}
+
+/* Remove o truncate que pode causar problemas */
+.truncate {
+  overflow: visible !important;
+}
+
+/* Garante que as imagens mantenham proporção */
+.carousel-item img {
+  min-width: 100%;
+  height: 31rem;
+}

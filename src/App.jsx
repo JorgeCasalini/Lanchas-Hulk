@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from './components/Navbar';
-import Carrousel from './components/Carrousel';
+import Carrousel from './components/Carousel';
 import Itinerary from './components/Itinerary';
 import Product from './components/Product';
 import About from "./components/About";
@@ -24,20 +24,20 @@ class App extends Component {
   async componentDidMount() {
     try {
       const { data: lanchasJetSki } = await axios.get("/api/todasAsLanchas.json");
-  
+
       const { data: perguntasFrequentes } = await axios.get("/api/perguntasFrequentes.json");
-  
-      this.setState({ 
-        lanchasJetSki: Array.isArray(lanchasJetSki) ? lanchasJetSki : [], 
-        perguntasFrequentes: Array.isArray(perguntasFrequentes) ? perguntasFrequentes : [] 
+
+      this.setState({
+        lanchasJetSki: Array.isArray(lanchasJetSki) ? lanchasJetSki : [],
+        perguntasFrequentes: Array.isArray(perguntasFrequentes) ? perguntasFrequentes : []
       });
     } catch (error) {
       console.log("Erro ao carregar os dados:", error);
       this.setState({ perguntasFrequentes: [] }); // Garante que não seja undefined
     }
   }
-  
-  
+
+
 
   render() {
     return (
@@ -45,9 +45,9 @@ class App extends Component {
         <Navbar />
         <Carrousel />
         <Itinerary />
-        <Product lanchasJetSki={this.state.lanchasJetSki} /> 
+        <Product lanchasJetSki={this.state.lanchasJetSki} />
         <About />
-        <Doubts perguntasFrequentes={this.state.perguntasFrequentes}/>
+        <Doubts perguntasFrequentes={this.state.perguntasFrequentes} />
         <Footer />
       </>
     );

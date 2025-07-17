@@ -3,8 +3,8 @@ import '../styles/Itinerary.css';
 
 const Itinerary = () => (
     <>
-        <div id="roteiros" className="w-100 overflow-hidden" style={{ backgroundColor: "#f2f2f2" }}>
-            <h1 className="pt-4 px-3 px-md-5 px-lg-7 title-KoPub" data-aos="fade-up" data-aos-duration="1000">
+        <div id="roteiros" className="w-100 pt-1 md:pt-2 overflow-hidden" style={{ backgroundColor: "#f2f2f2" }}>
+            <h1 className="pt-4 px-3 px-md-5 px-lg-7 title-KoPub">
                 Roteiros
             </h1>
             <div className="mt-3 row align-items-center">
